@@ -1,0 +1,11 @@
+#+TITLE: Readme
+
+* Description:
+统计文档中的中文字数，默认 utf-8 编码
+
+* Usage:
+python chinese_wc.py [directory] [depth] [file extension appendix]
+
+* Example
+python chinese_wc.py "/home/wd/Documents/org" 4 ".org"
+python chinese_wc.py ~/Documents/org 4 '.org'
