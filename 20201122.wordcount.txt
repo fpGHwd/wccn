@@ -1,0 +1,7 @@
+the directory is:  /home/wd/Documents/org
+8	/home/wd/Documents/org/gcal.org
+10539	/home/wd/Documents/org/web.org
+110525	/home/wd/Documents/org/notes.org
+17094	/home/wd/Documents/org/todo.org
+0	/home/wd/Documents/org/gtd.org
+2216	/home/wd/Documents/org/journal.org
