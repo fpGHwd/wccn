@@ -6,6 +6,6 @@
 * Usage:
 python chinese_wc.py [directory] [depth] [file extension appendix]
 
-* Example
-python chinese_wc.py "/home/wd/Documents/org" 4 ".org"
-python chinese_wc.py ~/Documents/org 4 '.org'
+* Example:
+- python chinese_wc.py "/home/wd/Documents/org" 4 ".org"
+- python chinese_wc.py ~/Documents/org 4 '.org'
