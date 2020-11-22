@@ -1,10 +1,11 @@
 #+TITLE: Readme
 
 * Description:
-统计文档中的中文字数，默认 utf-8 编码
+- 统计文档中的中文字数，默认 utf-8 编码
+- count all chinese characters in a directory with specific file extension appendix and specific depth of search
 
 * Usage:
-python chinese_wc.py [directory] [depth] [file extension appendix]
+- python chinese_wc.py [directory] [depth] [file extension appendix]
 
 * Example:
 - python chinese_wc.py "/home/wd/Documents/org" 4 ".org"
