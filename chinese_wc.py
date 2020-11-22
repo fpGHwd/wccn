@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 #
 import io
-import re
 import os
 import sys
-import pdb
 
 # filename = "/home/wd/wordcount.log"
 
 def count_file(filename):
 
     f = io.open(filename, 'r', encoding='utf8')
-    # print(len(f.read()))
 
     # First find all 'normal' words and interpunction
     # '[\x21-\x2f]' includes most interpunction, change it to ',' if you only need to match a comma
@@ -31,12 +28,6 @@ def count_file(filename):
     # https://stackoverflow.com/questions/16528005/find-the-length-of-a-sentence-with-english-words-and-chinese-characters
 
 
-# count all files in specific directory
-
-def count_directory(directory):
-    ''' count files in a directory'''
-
-
 def walk(top, maxdepth):
     dirs, nondirs = [], []
     for name in os.listdir(top):
@@ -48,8 +39,9 @@ def walk(top, maxdepth):
                 yield x
 
 
-# for x in walk(".", 2):
-#     print(x)
+# count all files in specific directory
+# def count_directory(directory):
+#     ''' count files in a directory'''
 
 
 if __name__ == "__main__":
